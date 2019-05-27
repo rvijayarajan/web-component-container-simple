@@ -1,0 +1,17 @@
+.wcContainer {
+	border: 1px solid; 
+	scroll-snap-type: y mandatory;
+	max-height: 100vh;
+	overflow-y: scroll;
+	padding: 0; 
+}
+
+.wcContainer section {
+	border: inherit;
+	width: 100%; 
+	min-height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	scroll-snap-align: start;
+}
