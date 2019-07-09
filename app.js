@@ -3,7 +3,7 @@
  	var app = angular.module("main",['wcContainerSimple']);
 
 	app.component("app", {
-		template: '<wc-container style="max-height: 100vh;"></wc-container>',
+		templateUrl: 'app.html',
 		bindings: {
 			
 		},

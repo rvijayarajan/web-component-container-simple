@@ -82,6 +82,10 @@ app.get('/container-simple.html', function(req, res){
   res.sendFile(path.join(__dirname + '/container-simple.html'));
 });
 
+app.get('/app.html', function(req, res){
+  res.sendFile(path.join(__dirname + '/app.html'));
+});
+
 // app.get('/wcnbsimple.js', function(req, res){
 //   res.sendFile(path.join(__dirname + '/dist/wcnbsimple.js'));
 // });

@@ -1,3 +1,16 @@
+angular.module('wcContainerSimpleTemplates', []).run(['$templateCache', function($templateCache) {
+  'use strict';
+
+  $templateCache.put('container-simple.html',
+    "<div class=\"container-fluid wcContainer\">\r" +
+    "\n" +
+    "	<div ng-transclude=\"container\"></div>	\r" +
+    "\n" +
+    "</div>"
+  );
+
+}]);
+
 (function () {
 
  	var app = angular.module("wcContainerSimple",["wcContainerSimpleTemplates"]);
